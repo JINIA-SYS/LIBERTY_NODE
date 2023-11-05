@@ -6,7 +6,7 @@ dotenv.config()
 
 //MONGO DATABASE SECTION
 const {mongodbconnect}=require("./models/mongodb.js")
-mongodbconnect(process.env.MONGODB_URL)
+mongodbconnect("mongodb+srv://mohammedjinia:Gizmo@cluster0.wornasj.mongodb.net/?retryWrites=true&w=majority")
 
 
 //MIDDLEWARE SECTIONS:
